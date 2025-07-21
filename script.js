@@ -11,7 +11,7 @@ document.querySelector('.wbl_closeBtn_takeover').addEventListener('click', (e) =
 })
 setTimeout(() => {
   removedAll()
-}, 17000);
+}, 12000);
 
 
 function beginAnimation() {
