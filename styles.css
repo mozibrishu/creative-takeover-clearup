@@ -39,23 +39,10 @@
   width: 20px;
 }
 
-@media (max-width: 768px) {
-  .wbl_innerContainer {
-    aspect-ratio: 1/2.1;
-  }
-  .wbl_logo_linear{
-    width: 18px;
-  }
-  .wbl_closeBtn_takeover{
-    width: 22px;
-  }
-}
-
 
 .wbl_can_container {
   width: 10%;
   position: absolute;
-  /* margin-top: 75px; */
   overflow: hidden;
   aspect-ratio: 200 / 521;
   top: 20%;
@@ -102,3 +89,33 @@ display: none;
   left: 22%;
   display: none;
 }
+
+@media (max-width: 600px) {
+  .wbl_innerContainer {
+    aspect-ratio: 1/2.1;
+  }
+  .wbl_logo_linear{
+    width: 18px;
+  }
+  .wbl_closeBtn_takeover{
+    width: 22px;
+  }
+
+  .wbl_can_container{
+    width: 37%;
+    top: 24%;
+    left: 31%;
+  }
+  .wbl_kv{
+    width: 66%;
+    left: 17%;
+    top: 23%;
+  }
+  .wbl_logo{
+    width: 28%;
+    left: 36%;
+    top: 10%;
+  }
+
+}
+
