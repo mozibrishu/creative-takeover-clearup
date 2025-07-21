@@ -20,7 +20,7 @@
   top: 50%;
   left: 0;
   width: 100%;
-  background-color: #f005;
+  /* background-color: #f005; */
   aspect-ratio: 2.1 / 1;
   transform: translateY(-50%);
 }
@@ -49,4 +49,56 @@
   .wbl_closeBtn_takeover{
     width: 22px;
   }
+}
+
+
+.wbl_can_container {
+  width: 10%;
+  position: absolute;
+  /* margin-top: 75px; */
+  overflow: hidden;
+  aspect-ratio: 200 / 521;
+  top: 20%;
+  left: 44%;
+display: none;
+}
+
+.wbl_can {
+  width: 100%;
+  position: relative;
+}
+
+.wbl_can img {
+  width: 100%;
+}
+
+.wbl_can_wrapper {
+  position: absolute;
+  width: fit-content;
+  height: 89%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -49%);
+  mix-blend-mode: multiply;
+}
+
+.wbl_can_wrapper img {
+  height: 100%;
+  transform: translateX(32%);
+}
+
+.wbl_kv{
+  position: absolute;
+  width: 21%;
+  top: 32%;
+  left: 35%;
+  display: none;
+}
+
+.wbl_logo{
+  position: absolute;
+  width: 9%;
+  top: 18%;
+  left: 22%;
+  display: none;
 }
